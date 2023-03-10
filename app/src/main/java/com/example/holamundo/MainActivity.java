@@ -22,8 +22,9 @@ public class MainActivity extends AppCompatActivity {
     }
     public void ContarLetras (View quien ){
         Log.d("P1", "El botón se ha pulsado: ");
-        textoMostrado.setText("Holi");
-        Log.d("P2", String.valueOf(textoIntroducido.getText()));
+
+        textoMostrado.setText("La palabra tiene: " + String.valueOf(textoIntroducido.getText()).length() + " letras");
+        //Log.d("P2", String.valueOf(textoIntroducido.getText()));
 
 
     }
