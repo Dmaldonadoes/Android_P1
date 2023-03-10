@@ -14,12 +14,12 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        textoMostrado = (TextView) findViewById(R.id.editTextTextPersonName);
+        textoMostrado = (TextView) findViewById(R.id.textView);
         //Log.d("Saludo","Holiwis");
     }
     public void ContarLetras (View quien ){
         Log.d("P1", "El botón se ha pulsado: ");
-        //textoMostrado.setText("Holi");
+        textoMostrado.setText("Holi");
 
     }
 }
